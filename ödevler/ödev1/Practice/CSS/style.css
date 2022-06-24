@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.header{
+    display: flex;
+    text-align:center;
+    justify-content:space-around;
+    background-color:rgb(60, 33, 182);
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding:20px;
+}
+ul.menu{
+    list-style: none;
+    display:flex;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px;
+    margin-right: 20px;
+}
+
+.home{
+    padding: 20px;
+}
+
+form{
+    font-size:1.5em;
+}
+.contact{
+    padding:50px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
