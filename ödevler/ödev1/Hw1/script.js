@@ -222,20 +222,3 @@ document.querySelector("#cancel").addEventListener("click", () => {
 document.querySelector("#save").addEventListener("click", updateUser)
 
 
-
-/*
-// function tryn
-fetch  function sortTableColumn(table, column, ascend = true) {
-    debugger
-    console.log("1");
-    const directionModifier = ascend ? 1 : -1;
-    const tBody =table.tBodies[0];
-    console.log(tBody);
-    const rows= Array.from(tBody.querySelectorAll("tr"));
-
-    const sortedRows= rows.sort((a,b)=>{
-        const aColText =a.querySelector(`td:nth-child(${column+1})`).textContent.trim();
-        const bColText =b.querySelector(`td:nth-child(${column+1})`).textContent.trim();
-    });
-}
-*/
